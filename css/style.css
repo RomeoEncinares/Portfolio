@@ -51,6 +51,10 @@ body p {
     color: var(--color-icon);
 }
 
-.first-row {
-    margin: 0.5em;
+.skills-section img{
+    height: 7em;
+}
+
+.skills-section p{
+    padding: 2em 0 0 0;
 }
