@@ -7,6 +7,18 @@
     --color-body-darker:#7D7981;
 }
 
+body {
+    background-color: var(--color-base);
+}
+
+body h1, h4{
+    color: var(--color-heading);
+}
+
+body p {
+    color: var(--color-body);
+}
+
 .col {
     padding: 4.5em 4.5em 0 4.5em;
 }
