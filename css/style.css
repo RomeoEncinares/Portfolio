@@ -11,7 +11,7 @@ body {
     background-color: var(--color-base);
 }
 
-body h1, h4{
+body h1, h3, h4, h5{
     color: var(--color-heading);
 }
 
@@ -23,6 +23,19 @@ body p {
     padding: 4.5em 4.5em 0 4.5em;
 }
 
+#right {
+    padding: 4.5em 4.5em 0 0 !important;
+}
+
 .sticky-top{
     top: 4.5em;
+}
+
+.project {
+    background-color: var(--color-base2);
+    margin: 0.5em;
+}
+
+.project .content {
+    padding: 3em;
 }
