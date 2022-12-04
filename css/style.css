@@ -1,3 +1,12 @@
+:root {
+    --color-base: #151515;
+    --color-base2: #202022;
+    --color-base3: #141415;
+    --color-heading: #FFFFFF;
+    --color-body: #929293;
+    --color-body-darker:#7D7981;
+}
+
 .col {
     padding: 4.5em 4.5em 0 4.5em;
 }
