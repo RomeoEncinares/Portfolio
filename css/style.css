@@ -5,6 +5,7 @@
     --color-heading: #FFFFFF;
     --color-body: #929293;
     --color-body-darker:#7D7981;
+    --color-icon: #FFFFFF;
 }
 
 body {
@@ -19,7 +20,7 @@ body p {
     color: var(--color-body);
 }
 
-.col {
+#left {
     padding: 4.5em 4.5em 0 4.5em;
 }
 
