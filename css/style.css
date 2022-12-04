@@ -1,3 +1,7 @@
 .col {
     padding: 4.5em 4.5em 0 4.5em;
 }
+
+.sticky-top{
+    top: 4.5em;
+}
