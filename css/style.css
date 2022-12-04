@@ -40,3 +40,17 @@ body p {
 .project .content {
     padding: 3em;
 }
+
+.skills-section {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.skills-section i{
+    font-size: 7em;
+    color: var(--color-icon);
+}
+
+.first-row {
+    margin: 0.5em;
+}
