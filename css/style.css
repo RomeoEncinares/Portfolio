@@ -32,9 +32,18 @@ body p {
     top: 4.5em;
 }
 
+.project {
+    transition: transform .2s;
+}
+
 .project, .contact {
     background-color: var(--color-base2);
     margin: 0.5em;
+}
+
+.project:hover{
+   transform: scale(1.1);
+   cursor: pointer;
 }
 
 .project .content, .contact .content {
