@@ -139,7 +139,7 @@
                         <div class="content">
                             <h5>Lorem</h5>
                             <h3>Lorem, ipsum dolor.</h3>
-                            <p>Lorem ipsum dolor sit amet <a href="#exampleModal" data-bs-toggle="modal">Lorem, ipsum.</a></p>
+                            <p>Lorem ipsum dolor sit amet <a href="#contactModal" data-bs-toggle="modal">Lorem, ipsum.</a></p>
                             
                         </div>
                     </div>
@@ -147,7 +147,7 @@
             </div>
 
         <!-- Contact Section Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -155,11 +155,24 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Your Name</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                      </form>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Submit</button>
                 </div>
             </div>
             </div>
