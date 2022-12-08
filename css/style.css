@@ -80,3 +80,16 @@ body p {
 .education-section .row {
     margin: 3em;
 }
+
+#contactModal .modal-content{
+    background-color: #141415;
+}
+
+#contactModal h1, label {
+    color: var(--color-heading);
+}
+
+#contactModal .form-control {
+    color: var(--color-heading);
+    background-color: var(--color-base2);
+}
