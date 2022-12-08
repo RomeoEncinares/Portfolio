@@ -58,3 +58,16 @@ body p {
 .skills-section p{
     padding: 2em 0 0 0;
 }
+
+.education-section {
+    margin-top: 5em;
+}
+
+.education-section img {
+    width: 7em;
+    height: 7em;
+}
+
+.education-section .row {
+    margin: 3em;
+}
