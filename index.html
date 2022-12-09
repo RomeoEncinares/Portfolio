@@ -23,6 +23,20 @@
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi maxime magni eum eius distinctio laudantium facere dignissimos labore! Iusto, distinctio magni. Nostrum dolor doloremque quibusdam itaque reprehenderit, ea vero animi.</p>
                         <p>Lorem ipsum dolor sit amet <a href="#contactModal" data-bs-toggle="modal">Lorem, ipsum.</a></p>
                     </div>
+                    <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <ul class="nav nav-pills">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#project-section">First</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#skills-section">Second</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#education-section">Third</a>
+                          </li>
+                        </ul>
+                      </nav>
                     <div class="row">
                         <div class="col">
                             <a href="">Github</a>
@@ -33,8 +47,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col" id="right">
-                <div class="project-section">
+            <div class="col" id="right" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+                <div class="project-section" id="project-section">
                     <div class="project" id="project_1">
                         <div class="content">
                             <h5>Lorem</h5>
@@ -57,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skills-section">
+                <div class="skills-section" id="skills-section">
                     <div class="first-row">
                         <div class="row">
                             <div class="col">
@@ -119,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="education-section">
+                <div class="education-section" id="education-section">
                     <div class="row">
                         <div class="col-sm-3">
                             <img src="media/img/lipa-science-logo.png" alt="">
