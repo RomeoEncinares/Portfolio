@@ -33,12 +33,9 @@ body p {
 }
 
 .project {
-    transition: transform .2s;
-}
-
-.project {
     background-color: var(--color-base2);
     margin: 0.5em;
+    transition: transform .2s;
 }
 
 .project:hover{
