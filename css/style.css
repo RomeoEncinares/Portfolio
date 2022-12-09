@@ -57,11 +57,16 @@ body p {
     margin: 0 0 1em 0;
     position: fixed;
     bottom: 0;
+    transition: transform .2s;
 }
 
 #social-section a{
     text-decoration: none;
     color: var(--color-body);
+}
+
+#social-section .col:hover {
+    transform: scale(1.1);
 }
 
 .project {
