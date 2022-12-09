@@ -54,8 +54,14 @@ body p {
 }
 
 #social-section {
+    margin: 0 0 1em 0;
     position: fixed;
     bottom: 0;
+}
+
+#social-section a{
+    text-decoration: none;
+    color: var(--color-body);
 }
 
 .project {
