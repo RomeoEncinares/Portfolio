@@ -67,6 +67,7 @@ body p {
 
 #social-section .col:hover {
     transform: scale(1.1);
+    color: var(--color-heading);
 }
 
 .project {
