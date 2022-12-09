@@ -36,7 +36,7 @@ body p {
     transition: transform .2s;
 }
 
-.project, .contact {
+.project {
     background-color: var(--color-base2);
     margin: 0.5em;
 }
@@ -46,7 +46,7 @@ body p {
    cursor: pointer;
 }
 
-.project .content, .contact .content {
+.project .content{
     padding: 3em;
 }
 
