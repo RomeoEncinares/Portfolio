@@ -32,6 +32,10 @@ body p {
     top: 4.5em;
 }
 
+.body-text {
+    margin: 3em 0 0 0;
+}
+
 .project {
     background-color: var(--color-base2);
     margin: 0.5em;
