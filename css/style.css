@@ -32,6 +32,11 @@ body p {
     top: 4.5em;
 }
 
+.sticky-top img {
+    height: 8rem;
+    border-radius: 4rem;
+}
+
 .body-text {
     margin: 3em 0 0 0;
 }
