@@ -108,6 +108,7 @@ body p {
 .project .content span {
     font-size: 0.6em;
     font-weight: 100;
+    color: var(--color-body-darker);
     margin: 0 0.5em 0 0;
 }
 
