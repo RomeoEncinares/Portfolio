@@ -40,6 +40,10 @@ body p {
     border-radius: 4rem;
 }
 
+.sticky-top .header-text h1 {
+    font-weight: bold;
+}
+
 .body-text {
     margin: 3em 0 0 0;
 }
