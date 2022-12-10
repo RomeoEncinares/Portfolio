@@ -116,6 +116,10 @@ body p {
     margin: 3em;
 }
 
+.education-section .col-sm-9 {
+    padding: 0 0 0 1.5em;
+}
+
 #contactModal .modal-content{
     background-color: #141415;
 }
