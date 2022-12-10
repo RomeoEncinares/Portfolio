@@ -45,7 +45,11 @@ body p {
 }
 
 .body-text {
-    margin: 3em 0 0 0;
+    margin: 1.5em 0 0 0;
+}
+
+.body-text p {
+    font-size: 0.9em;
 }
 
 .scrollspy-example {
@@ -63,6 +67,10 @@ body p {
     background-color: var(--color-base);
     color: var(--color-body);
     transform: scale(1.3);
+}
+
+#navbar-example2 h6 {
+    font-weight: 100;
 }
 
 #social-section {
