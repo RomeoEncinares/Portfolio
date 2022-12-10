@@ -105,6 +105,12 @@ body p {
     padding: 3em;
 }
 
+.project .content span {
+    font-size: 0.6em;
+    font-weight: 100;
+    margin: 0 0.5em 0 0;
+}
+
 .skills-section {
     margin-top: 5em;
     text-align: center;
