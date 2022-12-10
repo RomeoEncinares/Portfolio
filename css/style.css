@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 :root {
     --color-base: #151515;
     --color-base2: #202022;
@@ -10,6 +12,7 @@
 
 body {
     background-color: var(--color-base);
+    font-family: 'Inter', sans-serif;
 }
 
 body h1, h3, h4, h5{
