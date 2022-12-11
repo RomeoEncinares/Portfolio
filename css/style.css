@@ -164,34 +164,34 @@ body p {
     background-color: var(--color-base2);
 }
 
-#project1Modal .modal-content{
+.project-modal .modal-content{
     background-color: var(--color-base2);
 }
 
-#project1Modal .carousel-inner img {
+.project-modal .carousel-inner img {
     height: 20rem;
     width: auto;
 }
 
-#project1Modal .modal-project-technologies img{
+.project-modal .modal-project-technologies img{
     height: 2em;
 }
 
-#project1Modal .modal-project-technologies i{
+.project-modal .modal-project-technologies i{
     font-size: 2em;
     vertical-align: middle;
 }
 
-#project1Modal .modal-project-repo {
+.project-modal .modal-project-repo {
     margin: 1em 0 1em 0;
     transition: transform .2s;
 }
 
-#project1Modal .modal-project-repo a, span{
+.project-modal .modal-project-repo a, span{
     text-decoration: none;
     color: var(--color-body);
 }
 
-#project1Modal .modal-project-repo:hover{
+.project-modal .modal-project-repo:hover{
     transform: scale(1.1);
 }
