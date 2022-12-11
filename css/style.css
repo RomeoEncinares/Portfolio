@@ -180,6 +180,7 @@ body p {
 .project-modal .modal-project-technologies i{
     font-size: 2em;
     vertical-align: middle;
+    color: var(--color-icon);
 }
 
 .project-modal .modal-project-repo {
