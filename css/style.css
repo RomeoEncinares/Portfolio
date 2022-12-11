@@ -184,9 +184,14 @@ body p {
 
 #project1Modal .modal-project-repo {
     margin: 1em 0 1em 0;
+    transition: transform .2s;
 }
 
 #project1Modal .modal-project-repo a, span{
     text-decoration: none;
     color: var(--color-body);
+}
+
+#project1Modal .modal-project-repo:hover{
+    transform: scale(1.1);
 }
