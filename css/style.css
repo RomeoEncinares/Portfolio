@@ -112,6 +112,10 @@ body p {
     margin: 0 0.5em 0 0;
 }
 
+.project-section a {
+    text-decoration: none;
+}
+
 .skills-section {
     margin-top: 5em;
     text-align: center;
@@ -158,4 +162,31 @@ body p {
 #contactModal .form-control {
     color: var(--color-heading);
     background-color: var(--color-base2);
+}
+
+#project1Modal .modal-content{
+    background-color: var(--color-base2);
+}
+
+#project1Modal .carousel-inner img {
+    height: 20rem;
+    width: auto;
+}
+
+#project1Modal .modal-project-technologies img{
+    height: 2em;
+}
+
+#project1Modal .modal-project-technologies i{
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+#project1Modal .modal-project-repo {
+    margin: 1em 0 1em 0;
+}
+
+#project1Modal .modal-project-repo a, span{
+    text-decoration: none;
+    color: var(--color-body);
 }
