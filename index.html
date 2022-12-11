@@ -101,6 +101,7 @@
             </div>
             <div class="col" id="right" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
                 <div class="project-section" id="project-section">
+                    <a href="#project1Modal" data-bs-toggle="modal">
                     <div class="project" id="project_1">
                         <div class="content">
                             <div class="d-flex flex-row">
@@ -112,6 +113,7 @@
                             <p>A simple web application for tracking your finances.</p>
                         </div>
                     </div>
+                    </a>
                     <div class="project" id="project_2">
                         <div class="content">
                             <div class="d-flex flex-row">
@@ -251,8 +253,75 @@
             </div>
         </div>
 
+        <!-- Project 1 Modal  -->
+        <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Expense Tracker</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="" class="d-block" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="" class="d-block " alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="" class="d-block" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ut facere aspernatur nihil vitae distinctio architecto eveniet ducimus ipsam possimus, eligendi, quas omnis tempore quod recusandae ratione, consectetur facilis. Exercitationem.</p>
+                            <p>It is built with: </p>
+                            <div class="row modal-project-technologies">
+                                <div class="col">
+                                    <img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" alt="">
+                                    <i class="fa-brands fa-bootstrap"></i>
+                                    <img src="https://avatars.githubusercontent.com/u/10342521?s=200&v=4" alt="">
+                                </div>
+                            </div>
+                            <div class="col modal-project-repo">
+                                <a href="https://github.com/RomeoEncinares">
+                                    <div class="row">
+                                        <div class="col-sm-1">
+                                            <i class="fa-brands fa-github"></i>
+                                        </div>
+                                        <div class="col">
+                                            <span>GitHub Repo</span>
+                                        </div>
+                                    </div> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
         </div>
     </div>
-    <script src="js/index.js"></script>
+    <!-- <script src="js/index.js"></script> -->
 </body>
 </html>
