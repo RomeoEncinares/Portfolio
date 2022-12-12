@@ -118,6 +118,9 @@ body p {
 
 .skills-section {
     margin-top: 5em;
+}
+
+.first-row, .second-row, .third-row, .fourth-row {
     text-align: center;
 }
 
