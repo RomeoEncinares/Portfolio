@@ -164,6 +164,28 @@ body p {
     background-color: var(--color-base2);
 }
 
+
+#contactModal .btn-primary:hover {
+    color: var(--color-base2);
+    background-color: var(--color-icon);
+}
+
+#contactModal .btn-secondary {
+    border: var(--color-icon);
+    background-color: var(--color-base3);
+}
+
+#contactModal .btn-primary {
+    border: var(--color-icon);
+    background-color: var(--color-base2);
+}
+
+#contactModal .btn-secondary:hover {
+    color: var(--color-base2);
+    background-color: var(--color-icon);
+}
+
+
 .project-modal .modal-content{
     background-color: var(--color-base2);
 }
