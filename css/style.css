@@ -243,4 +243,9 @@ body p {
         visibility: hidden;
         display: none;
     }
+
+    #social-section {
+        position: unset;
+        transition: transform .2s;
+    }
 }
