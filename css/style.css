@@ -235,6 +235,15 @@ body p {
         padding: 2.25em 2.25em 0 2.25em;
     }
 
+    .header-text, .sticky-top .row .col-sm-3 {
+        text-align: center;
+    }
+
+    .body-text {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
     #mobileTitle {
         visibility: visible;
     }
@@ -246,6 +255,5 @@ body p {
 
     #social-section {
         position: unset;
-        transition: transform .2s;
     }
 }
