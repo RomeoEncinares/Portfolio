@@ -218,3 +218,17 @@ body p {
         padding: 4.5em 2.25em 0 0;
     }
 }
+
+#mobileTitle {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    #left, #right {
+        padding: 2.25em 2.25em 0 2.25em;
+    }
+
+    #mobileTitle {
+        visibility: visible;
+    }
+}
