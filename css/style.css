@@ -255,6 +255,7 @@ body p {
 
     #social-section {
         position: unset;
+        text-align: center;
     }
 
     .education-section .row{
