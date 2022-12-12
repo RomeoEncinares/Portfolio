@@ -265,4 +265,8 @@ body p {
     .education-section .col-sm-9 {
         padding: 1em 0 0 0;
     }
+
+    .project-modal .modal-footer .row{
+        text-align: center;
+    }
 }
