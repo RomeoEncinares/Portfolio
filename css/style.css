@@ -52,6 +52,10 @@ body p {
     font-size: 0.9em;
 }
 
+.body-text a {
+    color: var(--color-heading);
+}
+
 .scrollspy-example {
     background-color: #141415 !important;
 }
