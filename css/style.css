@@ -208,3 +208,13 @@ body p {
     transform: scale(1.1);
     color: var(--color-heading);
 }
+
+@media only screen and (max-width: 1080px) {
+    #left {
+        padding: 4.5em 2.25em 0 4.5em;
+    }
+    
+    #right {
+        padding: 4.5em 2.25em 0 0;
+    }
+}
