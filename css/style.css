@@ -231,4 +231,9 @@ body p {
     #mobileTitle {
         visibility: visible;
     }
+
+    #navbar-example2 {
+        visibility: hidden;
+        display: none;
+    }
 }
