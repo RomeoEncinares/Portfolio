@@ -24,11 +24,11 @@ body p {
 }
 
 #left {
-    padding: 4.5em 4.5em 0 4.5em;
+    padding: 4.5em 2.25em 0 4.5em;
 }
 
 #right {
-    padding: 4.5em 4.5em 0 0 !important;
+    padding: 4.5em 4.5em 0 0;
 }
 
 .sticky-top{
@@ -50,6 +50,10 @@ body p {
 
 .body-text p {
     font-size: 0.9em;
+}
+
+.body-text a {
+    color: var(--color-heading);
 }
 
 .scrollspy-example {
@@ -112,8 +116,15 @@ body p {
     margin: 0 0.5em 0 0;
 }
 
+.project-section a {
+    text-decoration: none;
+}
+
 .skills-section {
     margin-top: 5em;
+}
+
+.first-row, .second-row, .third-row, .fourth-row {
     text-align: center;
 }
 
@@ -147,15 +158,80 @@ body p {
     padding: 0 0 0 1.5em;
 }
 
-#contactModal .modal-content{
-    background-color: #141415;
-}
-
-#contactModal h1, label {
-    color: var(--color-heading);
-}
-
-#contactModal .form-control {
-    color: var(--color-heading);
+.project-modal .modal-content{
     background-color: var(--color-base2);
+}
+
+.project-modal .carousel-inner img {
+    height: auto;
+    width: 50em;
+}
+
+.project-modal .modal-footer a{
+    text-decoration: none;
+    color: var(--color-body);
+}
+
+.project-modal .modal-footer a{
+    transition: transform 0.2s;
+}
+
+.project-modal .modal-footer a:hover{
+    transform: scale(1.1);
+    color: var(--color-heading);
+}
+
+@media only screen and (max-width: 1080px) {
+    #left {
+        padding: 4.5em 2.25em 0 4.5em;
+    }
+    
+    #right {
+        padding: 4.5em 2.25em 0 0;
+    }
+}
+
+#mobileTitle {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    #left, #right {
+        padding: 2.25em 2.25em 0 2.25em;
+    }
+
+    .header-text, .sticky-top .row .col-sm-3 {
+        text-align: center;
+    }
+
+    .body-text {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    #mobileTitle {
+        visibility: visible;
+    }
+
+    #navbar-example2 {
+        visibility: hidden;
+        display: none;
+    }
+
+    #social-section {
+        position: unset;
+        text-align: center;
+    }
+
+    .education-section .row{
+        text-align: center;
+    }
+
+    .education-section .col-sm-9 {
+        padding: 1em 0 0 0;
+    }
+
+    .project-modal .modal-footer .row{
+        text-align: center;
+    }
 }
