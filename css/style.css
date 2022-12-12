@@ -256,4 +256,12 @@ body p {
     #social-section {
         position: unset;
     }
+
+    .education-section .row{
+        text-align: center;
+    }
+
+    .education-section .col-sm-9 {
+        padding: 1em 0 0 0;
+    }
 }
