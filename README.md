@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Personal Portfolio Websie to showcase my background, expertise, and projects I have worked in the past.
+Personal Portfolio Website to showcase my background, expertise, and projects I have worked in the past.
 
 # Live Site, [click here](https://romeoencinares.github.io/portfolio/)
 
